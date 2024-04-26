@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#204EBD"
+
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/plantalogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apps Login"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:textColorHint="@color/white"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Johnsmith"
+            android:inputType="textPersonName"
+            android:drawableEnd="@drawable/baseline_person"
+            android:drawableTint="@color/white"
+            android:textSize="20dp" />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+
+    android:textColorHint="@color/white"
+    app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="John@gmail.com"
+        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/baseline_email"
+        android:drawableTint="@color/white"
+        android:textSize="20dp" />
+
+
+
+</com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+
+    android:textColorHint="@color/white"
+    app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="********"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/baseline_lock"
+        android:drawableTint="@color/white"
+        android:textSize="20dp" />
+
+
+
+</com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+
+    android:textColorHint="@color/white"
+    app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="********"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/baseline_lock"
+        android:drawableTint="@color/white"
+        android:textSize="20dp" />
+
+
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:backgroundTint="#0D319F"
+        android:width="370dp"
+        android:height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
